@@ -6387,8 +6387,8 @@ background-attachment: fixed !important;
 	display:none
 }*/
 #servicehover {
-    width:150px;
-    border-radius: 10%;
+    /*width:150px;*/
+    border-radius: 15px;
 cursor: pointer;
 padding: 12px;
      }
