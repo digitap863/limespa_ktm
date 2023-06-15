@@ -1838,26 +1838,35 @@ border-radius: 15px;
 }
 
 .list li {
-	padding: 16px 0 12px 35px;
-	position: relative;
-	color: #fff;
-	background-color:#000;
+	padding: 20px;
+	display: inline-block;
+	color: #000c00;
+
+	background: #fdc202 ;
 	font-weight: 600;
-	border-radius: 5px;
+	border-radius: 3%;
 	margin: 8px;
 	font-family: 'Poppins', 'Playfair Display', sans-serif, serif;
 }
 
-.list li:hover {
-background: #fdc202 ;
+@media (max-width:567px) {
+	.list li {
+	display: block;
+	padding: 16px;
+	margin: 16px;
+	}
+}
 
+.list li:hover {
+	background-color:#000;
+	color:#9b9b04;
 }
 
 .list li a {
-	color:#fdc202;
+	color:#000c00;
 	}
 .list li:hover a {
-	color:#000;
+	color:#9b9b04;
 	text-decoration: underline;
 	}
 
@@ -6335,7 +6344,7 @@ left:10%;
 
 .showcase {
 	overflow: hidden;
-	color: #fff;
+	color: #dcdcba;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	
@@ -6353,7 +6362,7 @@ background-size: cover !important;
 
 .showcase2 {
 	overflow: hidden;
-	color: #fff;
+	color: #dcdcba;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	
@@ -6401,3 +6410,58 @@ font-weight: 600;
     background-color: rgba(150, 150, 76, 0.14);
 
  }
+
+ .containerover {
+	position: relative;
+	
+  }
+  
+  .image2 {
+	display: block;
+	height: auto;
+	border-radius: 8px;
+	width:180px;
+  }
+  
+  .overlay1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(36, 36, 3, 0.5);
+	border-radius: 12px;
+	margin: 0px 36px;
+  }
+  .overlay1 a {
+color: #dcdcba;
+  }
+
+  .containerover:hover .overlay1 {
+	opacity: 0.8;
+  }
+  
+  .textover {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  @media (max-width:992px) {
+
+	.overlay1 {
+		background-color: transparent;
+	}
+	.containerover:hover .overlay1 {
+		opacity: 1;
+	  }
+  }
