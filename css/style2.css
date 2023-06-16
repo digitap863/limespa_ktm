@@ -424,16 +424,16 @@ ul, ol, li {
     }
 
 .intro1 h2 {
-	color: #fff;
+	color: #dcdcba;
 	font-size: 53px;
 	text-transform: none;
 	
-	margin: 0 0 15px;
+	margin: 75px 0 0px;
 }
 
 .intro1 p {
 	font-size: 16px;
-	color: #fff;
+	color: #dcdcba;
 }
 
 .intro-form {
@@ -501,7 +501,7 @@ ul, ol, li {
 }
 
 .intro-box h4 {
-	color: #fff;
+	color: #dcdcba;
 	font-size: 17px;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -518,7 +518,7 @@ ul, ol, li {
 }
 
 .intro2 h3 {
-	color: #fff;
+	color: #dcdcba;
 	margin: 0px 0px 30px;
 	font-size: 60px;
 	font-weight: 200;
@@ -527,7 +527,7 @@ ul, ol, li {
 .intro2 p {
 	font-size: 17px;
 	font-weight: 400;
-	color: #fff;
+	color: #dcdcba;
 	opacity: 1;
 	padding: 0 10%;
 	line-height: 28px;
@@ -6438,13 +6438,18 @@ font-weight: 600;
 	margin: 0px 36px;
   }
   .overlay1 a {
-color: #dcdcba;
+color: whitesmoke;
+font-weight: 800;
+	text-decoration: underline;
   }
 
   .containerover:hover .overlay1 {
 	opacity: 0.8;
   }
-  
+  .containerover:hover .overlay1 a {
+	
+  }
+
   .textover {
 	color: white;
 	font-size: 20px;
