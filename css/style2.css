@@ -409,17 +409,17 @@ ul, ol, li {
 
 @media (max-width:479px) {
 .intro1 {
-
+	background: #000000 url(../images/bg/Group\ 40.png) no-repeat;
 	background-size: cover;
-	padding: 32px 0px;
+	/*padding: 190px 0 230px;*/
 }
 }
 
-@media  (min-width:479px) and (max-width:679px) {
+@media  (min-width:479px) and (max-width:762px) {
     .intro1 {
-    
+		background: #000000 url(../images/bg/Group\ 40.png) no-repeat;
         background-size: cover;
-        padding: 68px 0px;
+        
     }
     }
 
@@ -5994,7 +5994,8 @@ input:focus, textarea:focus {
 	}
 
 	.intro1 h2 {
-		font-size: 34px;
+		font-size: 40px;
+		padding: 20px;
 		margin: 95px 0 25px;
 	}
 
